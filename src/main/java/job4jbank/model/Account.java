@@ -6,7 +6,6 @@ import lombok.RequiredArgsConstructor;
 
 @Data
 @RequiredArgsConstructor
-
 public class Account extends Id {
     @NonNull
     private String requisite;
